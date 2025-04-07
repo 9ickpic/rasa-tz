@@ -1,0 +1,36 @@
+// Стили для кнопки-гамбургера
+.hamburger {
+  display: none; // Скрываем кнопку на больших экранах
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+
+  span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 5px 0;
+    border: 1px solid purple; // Фиолетовая обводка, как на вашей картинке
+    border-radius: 5px; // Закругленные края
+    transition: all 0.3s ease;
+  }
+}
+
+ul.menu {
+  gap: 16px;
+  display: flex;
+  list-style: none;
+
+  li {
+    a {
+      color: #0d0d0d;
+      text-decoration: none;
+
+      &:hover {
+        color: #760135; // Цвет при наведении, чтобы соответствовать вашему стилю
+      }
+    }
+  }
+}

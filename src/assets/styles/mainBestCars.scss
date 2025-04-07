@@ -1,0 +1,64 @@
+.best__car__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 16px;
+  font-family: 'IBM Plex Sans';
+  gap: 16px;
+
+  .car__content {
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+
+    .content__card {
+      display: flex;
+      align-items: center;
+
+      .card__title {
+        display: flex;
+        flex-direction: column;
+
+        span.success__offer {
+          color: #25b456;
+          font-size: 15px;
+          line-height: 100%;
+          font-weight: 500;
+        }
+
+        h3 {
+          margin-top: 8px;
+          margin-bottom: 16px;
+          font-size: 24px;
+          line-height: 100%;
+          font-weight: 500;
+        }
+
+        p {
+          font-size: 15px;
+          line-height: 100%;
+
+          &:last-of-type {
+            margin-bottom: 21px;
+          }
+        }
+
+        span.price {
+          font-size: 24px;
+          color: #760135;
+          line-height: 100%;
+          font-weight: 500;
+          margin-bottom: 21px;
+        }
+
+        a {
+          color: #760135;
+          font-size: 13px;
+          line-height: 100%;
+        }
+      }
+    }
+  }
+}

@@ -3,18 +3,314 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My site </title>
+    <title>My site</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
   </head>
-  <body> 
-    <h1>Hello! </h1>
+  <body>
     <header> 
-      <nav><a href="/">Home </a>
-        <script src="../js/main.js"> </script>
-      </nav>
-      <p>Привет!</p>
+      <div class="header__nav">
+        <div class="container--replace"> 
+          <div class="header__nav--high">
+            <ul>
+              <li><a class="active_hover" href="#">Частным клиентам</a></li>
+              <li><a href="#">Для бизнеса</a></li>
+              <li class="h">
+                <svg width="2" height="20" viewBox="0 0 2 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 0V20" stroke="#E0E1E6"></path>
+                </svg>
+              </li>
+              <li class="h"><a href="#">О банке</a></li>
+              <li class="h"><a href="#">Офисы</a></li>
+            </ul>
+            <div class="h"><a class="h" href="tel:88007755606">8 (800) 755-56-06</a>
+              <div class="nav__location"><span class="nav__location__icon h">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="https://www.w3.org/2000/svg">
+                    <path d="M15.2084 9.16658C15.2084 12.4999 10.0001 16.0416 10.0001 16.0416C10.0001 16.0416 4.79175 12.4999 4.79175 9.16658C4.79175 6.24992 7.23866 3.95825 10.0001 3.95825C12.7615 3.95825 15.2084 6.24992 15.2084 9.16658Z" stroke="#0D0D0D" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10 11.0417C11.0355 11.0417 11.875 10.2023 11.875 9.16675C11.875 8.13121 11.0355 7.29175 10 7.29175C8.96447 7.29175 8.125 8.13121 8.125 9.16675C8.125 10.2023 8.96447 11.0417 10 11.0417Z" stroke="#0D0D0D" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round"></path>
+                  </svg></span><span class="nav__location__text h"> Хабаровск</span></div><span class="nav__location__language h">English</span>
+            </div>
+          </div>
+          <hr>
+          <div class="header__nav--low">
+            <div><a href="#"> <img src="./assets/images/logo.png" alt="logo"></a>
+              <button class="hamburger" onclick="toggleMenu()"><span> </span><span> </span><span> </span></button>
+              <ul class="h menu"> 
+                <li class="h"><a href="#">Кредиты</a></li>
+                <li class="h"> <a href="#">Вклады</a></li>
+                <li class="h"> <a href="#">Обмен валют</a></li>
+                <li class="h"> <a href="#">Карты</a></li>
+                <li class="h"><a href="#">Ипотека</a></li>
+                <li class="h"><a href="#">Переводы</a></li>
+                <li class="h"><a href="#">Страхование</a></li>
+                <li class="h"><a href="#">Страхование</a></li>
+                <li class="h"><a href="#">Сервисы</a></li>
+              </ul>
+            </div>
+            <div class="header__nav--actions"> <a class="nav__actions--call h" href="tel:+78007755606">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M8.89286 4.75H6.06818C5.34017 4.75 4.75 5.34017 4.75 6.06818C4.75 13.3483 10.6517 19.25 17.9318 19.25C18.6598 19.25 19.25 18.6598 19.25 17.9318V15.1071L16.1429 13.0357L14.5317 14.6468C14.2519 14.9267 13.8337 15.0137 13.4821 14.8321C12.8858 14.524 11.9181 13.9452 10.9643 13.0357C9.98768 12.1045 9.41548 11.1011 9.12829 10.494C8.96734 10.1537 9.06052 9.76091 9.32669 9.49474L10.9643 7.85714L8.89286 4.75Z" stroke="#25B456" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg><span class="actions__call--text">Заказать звонок</span></a><a class="nav__actions--bank" href="#">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M9.75 8.75L13.25 12L9.75 15.25" stroke="#760135" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M9.75 4.75H17.25C18.3546 4.75 19.25 5.64543 19.25 6.75V17.25C19.25 18.3546 18.3546 19.25 17.25 19.25H9.75" stroke="#760135" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M13 12H4.75" stroke="#760135" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg><span class="actions__bank--text">Интернет-банк</span></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="header__hero">
+        <div class="container--replace"> 
+          <div class="container"> 
+            <div class="hero__nav h"> 
+              <ul> 
+                <li> <a href="#">Главная</a></li>
+                <li class="texture">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.78132 7.99999L5.48132 4.69999L6.42399 3.75732L10.6667 7.99999L6.42399 12.2427L5.48132 11.3L8.78132 7.99999Z" fill="#131313"></path>
+                  </svg>
+                </li>
+                <li> <a href="#">Кредит</a></li>
+                <li class="texture">
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.78132 7.99999L5.48132 4.69999L6.42399 3.75732L10.6667 7.99999L6.42399 12.2427L5.48132 11.3L8.78132 7.99999Z" fill="#131313"></path>
+                  </svg>
+                </li>
+                <li> <a class="active_hover" href="#">Автокредит</a></li>
+              </ul>
+            </div>
+            <div class="hero__main"> 
+              <h1>Автокредит от 7,5% годовых</h1>
+              <p>на покупку авто у диллера или частного лица</p>
+              <button type="button">Оформить</button>
+            </div>
+          </div>
+          <div class="hero__image"> <img src="./assets/images/audi_banner.png" alt="audi banner"></div>
+        </div>
+      </div>
     </header>
-    <footer>
-      <p>© 2025 Все права защищены</p>
+    <div class="container__content"> 
+      <div class="search__panel">
+        <div class="search__panel--title">
+          <h2>Выбери себе авто</h2>
+          <button><span>Свернуть список машин</span>
+            <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.25 4.25L4 0.75L0.75 4.25" stroke="#760135" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="search__panel--panel">
+          <div class="filter__group">
+            <label for="car-brand">Марка</label>
+            <select id="car-brand" name="car-brand">
+              <option value="">Выбрать</option>
+              <option value="KIA">KIA</option>
+              <option value="Skoda">Skoda</option>
+              <option value="Citroen">Citroen</option>
+              <option value="Mercedes-Benz">Mercedes-Benz</option>
+              <option value="Honda">Honda</option>
+            </select>
+          </div>
+          <div class="filter__group">
+            <label for="car-year">Год</label>
+            <select id="car-year" name="car-year">
+              <option value="">Выбрать</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+            </select>
+          </div>
+          <div class="filter__group">
+            <label>Цена</label>
+            <div class="price-range">
+              <input id="price-from" type="number" placeholder="От" min="0">
+              <input id="price-to" type="number" placeholder="До" min="0">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="best__car__list"> 
+        <div class="car__content"> 
+          <div class="content__card"> 
+            <div class="card__title"><span class="success__offer">Лучшее предложение</span>
+              <h3>Ranult Arkana drive </h3>
+              <p>
+                 Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа. <br>В нем все по-новому: от дизайна кузова до эргономики салона. Получилось эмоционально и надежно — оцените сами!</p><span class="price">от 1 316 000 ₽</span><a href="#">Подробнее <span>→ </span></a>
+            </div>
+            <div class="car__slider"> 
+              <div class="slider"> 
+                <button class="arrow prev">←</button>
+                <div class="slides"><img class="slide active" src="../assets/images/redslider3.png" alt="Renault Arkana Drive"><img class="slide" src="../assets/images/redslider2.png" alt="Renault Arkana drive"><img class="slide" src="../assets/images/redslider1.png" alt="Renault Arkana drive"><img class="slide" src="../assets/images/redslider4.png" alt="Renault Arkana Drive"></div>
+                <button class="arrow next">→</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="car__content"> 
+          <div class="content__card"> 
+            <div class="card__title"><span class="success__offer">Лучшее предложение</span>
+              <h3>Volkswagen Tiguan PA</h3>
+              <p>
+                 Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа.  <br>В нем все по-новому: от дизайна кузова до эргономики салона. Получилось эмоционально и надежно — оцените сами!</p><span class="price">от 2 395 000 ₽</span><a href="#">Подробнее <span>→ </span></a>
+            </div>
+            <div class="car__slider"> 
+              <div class="slider"> 
+                <button class="arrow prev">←</button>
+                <div class="slides"><img class="slide active" src="../assets/images/slidergray4.png" alt="Volkswagen Tiguan PA"><img class="slide" src="../assets/images/slidergray3.png" alt="Renault Arkana drive"><img class="slide" src="../assets/images/slidergray2.png" alt="Volkswagen Tiguan PA"><img class="slide" src="../assets/images/slidergray1.png" alt="Volkswagen Tiguan PA"></div>
+                <button class="arrow next">→</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="car__content"> 
+          <div class="content__card"> 
+            <div class="card__title"><span class="success__offer">Лучшее предложение</span>
+              <h3>BMW X7</h3>
+              <p>
+                 Купе-кроссовер Renault ARKANA — автомобиль, созданный с чистого листа. <br>В нем все по-новому: от дизайна кузова до эргономики салона. Получилось эмоционально и надежно — оцените сами!</p><span class="price">от 8 188 000 ₽</span><a href="#">Подробнее <span>→ </span></a>
+            </div>
+            <div class="car__slider"> 
+              <div class="slider"> 
+                <button class="arrow prev">←</button>
+                <div class="slides"><img class="slide active" src="../assets/images/sliderblack4.png" alt="Volkswagen Tiguan PA"><img class="slide" src="../assets/images/sliderblack3.png" alt="Volkswagen Tiguan PA"><img class="slide" src="../assets/images/sliderblack2.png" alt="Volkswagen Tiguan PA"><img class="slide" src="../assets/images/sliderblack1.png" alt="Volkswagen Tiguan PA"></div>
+                <button class="arrow next">→</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="car__list"> </div>
+      <div class="car__nofind"> 
+        <p>Не нашли автомобиль у нас, но нужен автокредит?</p><a href="#">Перейдите к форме заявки</a>
+      </div>
+      <div class="main__general__conditions">
+        <h5>Общие условия</h5>
+        <div class="term"> 
+          <div>
+            <div class="term--title">Срок</div>
+            <div class="term--desc">от 6 месяцев до 6 лет.</div>
+          </div>
+          <hr>
+        </div>
+        <div class="sum"> 
+          <div> 
+            <div class="sum--title">Сумма </div>
+            <div class="sum--desc">от 200 000 до 5 000 000 руб.</div>
+          </div>
+          <hr>
+        </div>
+        <div class="bid"> 
+          <div> 
+            <div class="bid--title">Годовая процентная ставка:</div>
+            <div class="bid--desc">от 7,5% *.</div>
+          </div>
+          <hr>
+        </div>
+        <div class="addinfo"> 
+          <div> 
+            <div class="addinfo--title">Возможность приобритения авто у частного лица</div>
+          </div>
+          <hr>
+        </div><a href="#">Смотреть полные условия кредита 
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10.75 8.75L14.25 12L10.75 15.25" stroke="#760135" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+          </svg></a>
+      </div>
+      <div class="asked__quest">
+        <div> <img src="./assets/images/ask.jpg" alt="ask">
+          <h5>Часто задаваемые вопросы</h5>
+        </div>
+        <label for="asks_view"></label>
+        <select id="asks_view" name="asks_view"> 
+          <option value="">Как подать заявку на автокредит?</option>
+        </select>
+      </div>
+    </div>
+    <footer> 
+      <div class="container--replace">
+        <div class="footer__main">
+          <div class="footer__main--list"> 
+            <h5>Частным лицам</h5>
+            <ul class="gap10">
+              <li><a href="#">Банковские карты</a></li>
+              <li><a href="#">Кредиты</a></li>
+              <li><a href="#">Вклады</a></li>
+              <li><a href="#">Ипотека</a></li>
+              <li><a href="#">Страхование</a></li>
+              <li><a href="#">Сейфовые ячейки</a></li>
+              <li><a href="#">Открытие счетов</a></li>
+              <li><a href="#">Обмен валюты</a></li>
+              <li><a href="#">Переводы</a></li>
+              <li><a href="#">Маркетплейс</a></li>
+            </ul>
+          </div>
+          <div class="footer__main--list"> 
+            <h5>Бизнесу</h5>
+            <ul>
+              <li><a href="#">Экспресс-МСБ</a></li>
+              <li><a href="#">Расчетно-кассовое обслуживание</a></li>
+              <li><a href="#">Онлайн резервирование счета</a></li>
+              <li><a href="#">Внешнеэкономическая деятельность</a></li>
+              <li><a href="#">Зарплатный проект</a></li>
+              <li><a href="#">Овердрафт</a></li>
+              <li><a href="#">Кредит</a></li>
+              <li><a href="#">Лизинг</a></li>
+              <li><a href="#">Депозиты</a></li>
+              <li><a href="#">Банковские Гарантии</a></li>
+              <li> <a href="#">Факторинг</a></li>
+            </ul>
+          </div>
+          <div class="footer__main--list"> 
+            <h5>О банке</h5>
+            <ul>
+              <li><a href="#">Новости</a></li>
+              <li><a href="#">Вакансии</a></li>
+              <li><a href="#">Офисы</a></li>
+              <li><a href="#">Инвестиционные услуги</a></li>
+              <li><a href="#">О банке</a></li>
+              <li><a href="#">Реквизиты</a></li>
+              <li><a href="#">Тарифы</a></li>
+              <li><a href="#">Монеты</a></li>
+              <li><a href="#">Непрофильные активы</a></li>
+            </ul>
+          </div>
+          <div class="texture"> </div>
+          <div class="footer__main--list__tel"> 
+            <div class="footer__main--list__tel__a"><a href="tel:+7 800 775-56-06"> 8 800 775-56-06</a>
+              <p>Для звонков по России(бесплатно)</p>
+            </div>
+            <div class="footer__main--list__tel__b"><a href="tel:+7 495 232-37-23"> +7 495 232-37-2</a>
+              <p>Для блокировки карт (круглосуточно)</p>
+            </div>
+            <div class="footer__main--list__tel__c">
+              <div class="footer__main--list__tel__c__tg"><a href="#"> 
+                  <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.556863 7.69988L4.5802 9.17401L6.1486 14.1324C6.2168 14.4675 6.62595 14.5345 6.89872 14.3335L9.14904 12.5243C9.35362 12.3233 9.69459 12.3233 9.96735 12.5243L13.9907 15.4056C14.2634 15.6066 14.6726 15.4726 14.7408 15.1375L17.7412 1.0663C17.8094 0.731271 17.4685 0.396244 17.1275 0.530256L0.556863 6.82881C0.147712 6.96282 0.147712 7.56587 0.556863 7.69988ZM5.94404 8.43694L13.8543 3.67953C13.9907 3.61252 14.1271 3.81354 13.9907 3.88055L7.51244 9.84407C7.30787 10.0451 7.10329 10.3131 7.10329 10.6481L6.89872 12.2563C6.89872 12.4573 6.55776 12.5243 6.48956 12.2563L5.67125 9.30802C5.46668 8.97299 5.60308 8.57096 5.94404 8.43694Z" fill="#7E7F85"></path>
+                  </svg></a></div>
+              <div class="footer__main--list__tel__c__wk"><a href="#">
+                  <svg width="18" height="14" viewBox="0 0 18 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.78154 13.25C3.80247 13.25 0.392099 8.55781 0.25 0.75H3.245C3.34338 6.48073 5.55137 8.90816 7.30028 9.40866V0.75H10.1204V5.69244C11.8474 5.47973 13.6619 3.22748 14.274 0.75H17.0942C16.8635 2.03489 16.4037 3.25148 15.7435 4.32366C15.0834 5.39585 14.2371 6.30057 13.2575 6.98123C14.3509 7.60317 15.3167 8.48348 16.0911 9.56406C16.8655 10.6446 17.4309 11.9009 17.75 13.25H14.6457C14.3592 12.0782 13.777 11.0293 12.972 10.2347C12.167 9.44004 11.175 8.93507 10.1204 8.78303V13.25H9.78154Z" fill="#7E7F85"></path>
+                  </svg></a></div><a class="footer__main--list__tel__c__ok" href="#"> 
+                <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M5.89244 16.5984C4.14816 16.4164 2.57544 15.9869 1.22894 14.9337C1.06187 14.8027 0.889372 14.6764 0.736907 14.5301C0.147549 13.9641 0.0881655 13.3158 0.554515 12.6477C0.953468 12.076 1.62318 11.9231 2.31929 12.2514C2.45408 12.315 2.58251 12.3944 2.70552 12.4797C5.21494 14.2039 8.66225 14.2515 11.1811 12.5572C11.4307 12.3659 11.6974 12.2099 12.0066 12.1302C12.6077 11.9759 13.1683 12.1967 13.4909 12.7227C13.8595 13.3233 13.8548 13.9096 13.4007 14.376C12.7041 15.0909 11.8664 15.6082 10.9356 15.9692C10.0554 16.3104 9.09137 16.4822 8.13723 16.5963C8.28121 16.753 8.34908 16.83 8.43909 16.9205C9.73469 18.2222 11.0359 19.5185 12.3273 20.8243C12.7673 21.2692 12.8592 21.8208 12.6169 22.3383C12.352 22.9039 11.7592 23.2759 11.1778 23.2361C10.8095 23.2107 10.5222 23.0273 10.267 22.7702C9.28932 21.7864 8.29323 20.8207 7.33531 19.8183C7.05654 19.5268 6.92246 19.5819 6.67644 19.835C5.69284 20.8476 4.69322 21.8446 3.6877 22.836C3.2362 23.2811 2.69892 23.3612 2.17531 23.107C1.61871 22.8372 1.26453 22.269 1.29186 21.698C1.31071 21.3118 1.50065 21.0168 1.76575 20.7521C3.04792 19.4719 4.32655 18.1883 5.60565 16.9059C5.69025 16.8206 5.76919 16.7301 5.89244 16.5984Z" fill="#7E7F85"></path>
+                  <path d="M6.95497 12.1387C3.84323 12.1281 1.29162 9.54846 1.30977 6.43176C1.32768 3.28066 3.88093 0.741303 7.02331 0.750022C10.172 0.758506 12.6994 3.33439 12.6836 6.51825C12.6676 9.62858 10.0983 12.1496 6.95497 12.1387ZM9.78299 6.4393C9.77757 4.89179 8.54513 3.65982 7.00069 3.65841C5.44328 3.65676 4.19977 4.91112 4.21178 6.47277C4.22333 8.01438 5.46638 9.23764 7.01506 9.23198C8.55903 9.22656 9.78817 7.98658 9.78299 6.4393Z" fill="#7E7F85"></path>
+                </svg></a>
+              <div class="footer__main--list__tel__c__tv"><a href="#">
+                  <svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M20 2.17493C19.263 2.50023 18.4723 2.72107 17.6428 2.81956C18.4902 2.31221 19.1407 1.50643 19.445 0.548439C18.6514 1.01997 17.7741 1.36019 16.8402 1.54523C16.0913 0.748393 15.0261 0.25 13.8445 0.25C11.5799 0.25 9.74191 2.08838 9.74191 4.35354C9.74191 4.67585 9.77771 4.98921 9.84932 5.28765C6.43891 5.11754 3.41638 3.48209 1.39341 0.999082C1.04132 1.60491 0.838431 2.30923 0.838431 3.06129C0.838431 4.48485 1.56348 5.74128 2.66448 6.47544C1.99314 6.45455 1.36058 6.26951 0.805609 5.96212C0.805609 5.98003 0.805609 5.99495 0.805609 6.01286C0.805609 8.00046 2.2199 9.65978 4.09667 10.0358C3.75354 10.1283 3.38953 10.1791 3.01656 10.1791C2.75101 10.1791 2.49441 10.1522 2.24377 10.1045C2.76593 11.7339 4.28166 12.9217 6.07489 12.9545C4.66955 14.0558 2.90318 14.7124 0.978666 14.7124C0.647471 14.7124 0.322244 14.6915 0 14.6556C1.81411 15.8196 3.97136 16.5 6.28972 16.5C13.8356 16.5 17.9621 10.2477 17.9621 4.82507C17.9621 4.64601 17.9591 4.46993 17.9502 4.29385C18.7528 3.71488 19.448 2.99265 19.997 2.16896L20 2.17493Z" fill="#7E7F85"></path>
+                  </svg></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__footer"> <a href="#">FACTA</a><a href="#">Страхование и другие услуги НФО</a><a href="#">Общие условия предоставления банковских гарантий в АО «Солид Банк»</a><a href="#">Памятки по финансовой безопасности</a><a href="#">Обеспечение защиты прав потребителей финансовых услуг</a><a href="#">Методика определения справедливой стоимости финансовых инструментов</a><a href="#">Политика в отношении обработки персональных данных</a><a href="#">Лица, ответственные за сведения на сайте</a><a href="#">Аудиторская компания</a><a href="#">Надзорные органы</a><a href="#">Информация о процентных ставках по договорам банковского вклада с физическими лицами</a><a href="#">Информация, связанная с совершением Банком действий, предусмотренных пунктом 5.6 статьи 7 ФЗ N 115</a>
+          <hr>
+          <div class="SOLIDRASA">
+            <p>© 2004-2021, АО «Солид Банк» , официальный сайт, генеральная лицензия ЦБ РФ № 1329.</p><a href="https://rasa.pro/">Разработка сайта -<span>RASA</span></a>
+          </div>
+        </div>
+      </div>
     </footer>
+    <script src="./assets/js/main.js"> </script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/hiddenNavigation.js"></script>
   </body>
 </html>
