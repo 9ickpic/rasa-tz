@@ -1,0 +1,147 @@
+@import url(./global.css);
+
+header {
+  height: 120px;
+}
+
+.header__links {
+  padding: 0 60px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--color-gray-100);
+
+  ul {
+    gap: 16px;
+    align-items: center;
+    height: 57px;
+
+    a {
+      display: flex;
+      padding: 16px 0;
+      color: var(--color-text-secondary);
+
+      &:hover {
+        border-bottom: 2px solid var(--color-primary);
+        color: var(--color-gray-800);
+      }
+    }
+  }
+}
+
+.header__links--call {
+  color: var(--color-primary);
+
+  font-size: 15px;
+}
+
+.header__links--address {
+  gap: 4px;
+  position: relative;
+
+  line-height: 20px;
+  font-size: 15px;
+}
+
+.header__links--lang {
+  color: var(--color-text);
+}
+
+.header__content {
+  align-items: center;
+
+  .header__logo {
+    margin-right: 24px;
+  }
+
+  nav {
+    padding: 24px 0;
+  }
+
+  ul {
+    display: flex;
+    gap: 16px;
+  }
+}
+
+.header__buttons {
+  margin-left: 75px;
+  gap: 16px;
+
+  div {
+    gap: 8px;
+  }
+}
+
+.header__buttons--call {
+  color: var(--color-primary-success);
+}
+
+.hero {
+  height: 380px;
+  background-image: url(../images/banner.png);
+  background-size: cover;
+
+  .xwrapper {
+    padding-top: 16px;
+  }
+}
+
+.hero__content--menu {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 72px;
+}
+
+.hero__content--title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero__content--button {
+  width: 231px;
+
+  margin-top: 8px;
+  padding: 14px 78px;
+
+  border-radius: 8px;
+
+  color: white;
+  background-color: var(--color-primary);
+}
+
+.hero__image {
+  margin-right: 36px;
+  img {
+    width: 525px;
+    height: 364px;
+  }
+}
+
+.panel-controls {
+  margin-top: 24px;
+
+  label {
+    margin-bottom: 8px;
+  }
+
+  .car-brand {
+    width: 440px;
+    margin-right: 24px;
+  }
+
+  .car-year {
+    width: 220px;
+    margin-right: 16px;
+    select {
+      width: 220px;
+    }
+  }
+
+  .car-price {
+    width: 394px;
+
+    input {
+      width: 170px;
+    }
+  }
+}

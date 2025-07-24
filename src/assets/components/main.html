@@ -1,0 +1,92 @@
+<main>
+    <section class="hero">
+        <div class="xwrapper">
+            <div class="hero__content">
+                <div class="flex-row justify-between">
+                    <div>
+                        <ul class="hero__content--menu">
+                            <li><a href="#">Главная</a></li>
+                            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M8.78132 7.99999L5.48132 4.69999L6.42399 3.75732L10.6667 7.99999L6.42399 12.2427L5.48132 11.3L8.78132 7.99999Z"
+                                            fill="#131313" />
+                                    </g>
+                                </svg>
+                            </li>
+                            <li><a href="#">Кредит</a></li>
+                            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M8.78132 7.99999L5.48132 4.69999L6.42399 3.75732L10.6667 7.99999L6.42399 12.2427L5.48132 11.3L8.78132 7.99999Z"
+                                            fill="#131313" />
+                                    </g>
+                                </svg>
+                            </li>
+                            <li><a href="#">Автокредит</a></li>
+
+                        </ul>
+                        <div class="hero__content--title">
+                            <h1 class="semibold-text">Автокредит от 7,5% годовых</h1>
+                            <p>на покупку авто у дилера или частного лица</p>
+                            <a class="hero__content--button medium-text" href="#">Оформить</a>
+                        </div>
+                    </div>
+                    <div class="hero__image">
+                        <img src="./assets/images/audi_banner.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="flex-row justify-between">
+                <h2>Выберите себе авто</h2>
+                <button type="button">Свернуть список машин</button>
+            </div>
+            <div class="panel-controls flex-row justify-between">
+                <div class="car-brand flex-col">
+                    <label for="car-brand">Марка</label>
+                    <select name="brand" id="car-brand">
+                        <option value="">Выбрать</option>
+                        <option value="audi">Audi</option>
+                        <option value="bmw">BMW</option>
+                        <option value="honda">Honda</option>
+                        <option value="kia">Kia</option>
+                        <option value="mercedes">Mercedes-Benz</option>
+                        <option value="nissan">Nissan</option>
+                        <option value="suzuki">Suzuki</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="volkswagen">Volkswagen</option>
+                    </select>
+                </div>
+                <div class="car-year flex-col">
+                    <label for="car-year">Год</label>
+                    <select name="year" id="car-year">
+                        <option value="">Выбрать</option>
+                        <option value="audi">Audi</option>
+                        <option value="bmw">BMW</option>
+                        <option value="honda">Honda</option>
+                        <option value="kia">Kia</option>
+                        <option value="mercedes">Mercedes-Benz</option>
+                        <option value="nissan">Nissan</option>
+                        <option value="suzuki">Suzuki</option>
+                        <option value="toyota">Toyota</option>
+                        <option value="volkswagen">Volkswagen</option>
+                    </select>
+                </div>
+                <div class="car-price flex-col">
+                    <label for="price-min">Цена</label>
+                    <div class="flex-row">
+                        <input type="number" id="price-min" name="price-min" min="0" placeholder="От">
+                        <div class="utils-line-row-span"></div>
+                        <input type="number" id="price-max" name="price-max" min="0" placeholder="До">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
