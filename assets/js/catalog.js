@@ -150,21 +150,12 @@ async function loadCatalog() {
         border-radius: 4px;
         cursor: pointer;
         font-size: 15px;
-        transition: background-color 0.3s ease;
         grid-column-start: 1;
         grid-column-end: 3;
       `;
 
       showMoreBtn.addEventListener("click", () => {
         displayCars(totalCars); // Показываем все машины
-      });
-
-      showMoreBtn.addEventListener("mouseenter", () => {
-        showMoreBtn.style.backgroundColor = "#0056b3";
-      });
-
-      showMoreBtn.addEventListener("mouseleave", () => {
-        showMoreBtn.style.backgroundColor = "#007bff";
       });
 
       catalog.appendChild(showMoreBtn);
