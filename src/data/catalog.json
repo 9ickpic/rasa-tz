@@ -1,0 +1,135 @@
+[
+  {
+    "image": "./assets/images/kia_sportage_luxe+2.png",
+    "alt": "Kia Sportage LUXE+ 2L",
+    "name": "KIA Sportage. LUXE+ 2Л",
+    "address": "г. Якутск",
+    "price": "2 211 700 ₽"
+  },
+  {
+    "image": "./assets/images/skoda_karoq.png",
+    "alt": "Skoda Karoq",
+    "name": "Skoda Karoq",
+    "address": "г. Казань",
+    "price": "1 790 000 ₽"
+  },
+  {
+    "image": "./assets/images/cirtroen_c4.png",
+    "alt": "Citroen C4",
+    "name": "Citroen c4",
+    "address": "г. Уфа",
+    "price": "1 523 000 ₽"
+  },
+  {
+    "image": "./assets/images/mercedes-benz_gls400D4m_luxury.png",
+    "alt": "Mercedes-benz GLS 400 D 4M Luxury",
+    "name": "Mercedes-benz Gls 400 D 4m Luxury",
+    "address": "г. Казань",
+    "price": "2 211 700 ₽"
+  },
+  {
+    "image": "./assets/images/mercedes-benz_gle350D4matic_coupe.png",
+    "alt": "Mercedes-benz GLE 350 D 4MATIC Coupe",
+    "name": "Mercedes-benz Gle 350 D 4matic купе",
+    "address": "г. Казань",
+    "price": "2 211 700 ₽"
+  },
+  {
+    "image": "./assets/images/mercedes-benz_gle300D4matic_sport.png",
+    "alt": "Mercedes-benz GLE 300 D 4MATIC Sport",
+    "name": "Mercedes-benz Gle 300 D 4matic Sport",
+    "address": "г. Казань",
+    "price": "2 211 700 ₽"
+  },
+  {
+    "image": "./assets/images/kia_sportage_luxe+2,4.png",
+    "alt": "Kia Sportage LUXE+ 2.4L",
+    "name": "Kia Sportage. Luxe+ 2.4л",
+    "address": "г. Якутск",
+    "price": "2 336 700 ₽"
+  },
+  {
+    "image": "./assets/images/kia_k5_prestige.png",
+    "alt": "Kia K5 Prestige 2.5L",
+    "name": "Kia K5. Prestige. 2.5л",
+    "address": "г. Якутск",
+    "price": "2 242 400 ₽"
+  },
+  {
+    "image": "./assets/images/honda_freed.png",
+    "alt": "Honda Freed",
+    "name": "Honda Freed",
+    "address": "С аукциона Японии",
+    "price": "от 650 000 ₽"
+  },
+  {
+    "image": "./assets/images/nissan_caravan.png",
+    "alt": "Nissan Caravan NV350",
+    "name": "Nissan Caravan (nv350)",
+    "address": "С аукциона Японии",
+    "price": "от 1 250 000 ₽"
+  },
+  {
+    "image": "./assets/images/toyota_land_cruizer_prado.png",
+    "alt": "Toyota Land Cruiser Prado",
+    "name": "Toyota Land Cruizer Prado",
+    "address": "С аукциона Японии",
+    "price": "от 2 500 000 ₽"
+  },
+  {
+    "image": "./assets/images/toyota_vitz_white.png",
+    "alt": "Toyota Vitz White",
+    "name": "Toyota Vitz",
+    "address": "С аукциона Японии",
+    "price": "от 480 000 ₽"
+  },
+  {
+    "image": "./assets/images/toyota_vitz_gray.png",
+    "alt": "Toyota Vitz Gray",
+    "name": "Toyota Vitz",
+    "address": "С аукциона Японии",
+    "price": "от 520 000 ₽"
+  },
+  {
+    "image": "./assets/images/mazda.png",
+    "alt": "Mazda",
+    "name": "KIA Sportage. LUXE+ 2Л",
+    "address": "С аукциона Японии",
+    "price": "от 750 000 ₽"
+  },
+  {
+    "image": "./assets/images/nissan.png",
+    "alt": "Nissan",
+    "name": "KIA Sportage. LUXE+ 2Л",
+    "address": "С аукциона Японии",
+    "price": "от 800 000 ₽"
+  },
+  {
+    "image": "./assets/images/toyota_gray.png",
+    "alt": "Toyota Vitz Gray",
+    "name": "Toyota Vitz",
+    "address": "С аукциона Японии",
+    "price": "от 1 050 000"
+  },
+  {
+    "image": "./assets/images/honda_white.png",
+    "alt": "Honda",
+    "name": "KIA Sportage. LUXE+ 2Л",
+    "address": "С аукциона Японии",
+    "price": "от 600 000 ₽"
+  },
+  {
+    "image": "./assets/images/suzuki.png",
+    "alt": "Suzuki",
+    "name": "KIA Sportage. LUXE+ 2Л",
+    "address": "С аукциона Японии",
+    "price": "от 850 000 ₽"
+  },
+  {
+    "image": "./assets/images/honda_gray.png",
+    "alt": "Honda",
+    "name": "KIA Sportage. LUXE+ 2Л",
+    "address": "С аукциона Японии",
+    "price": "от 440 000 ₽"
+  }
+]

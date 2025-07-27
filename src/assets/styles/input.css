@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "IBMPlexSans-Medium";
+  src: url("/src/assets/fonts/IBMPlexSans-Medium.woff2") format("woff2"),
+    url("/src/assets/fonts/IBMPlexSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Regular";
+  src: url("/src/assets/fonts/IBMPlexSans-Regular.woff2") format("woff2"),
+    url("/src/assets/fonts/IBMPlexSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans-SemiBold";
+  src: url("/src/assets/fonts/IBMPlexSans-SemiBold.woff2") format("woff2"),
+    url("/src/assets/fonts/IBMPlexSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src: url("/src/assets/fonts/Inter-SemiBold.woff2") format("woff2"),
+    url("/src/assets/fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border m-0 p-0 no-underline border-0 list-none text-black;
+  }
+
+  body {
+    @apply font-ibmplex-regular text-p bg-[rgba(247,249,250,1)];
+  }
+}
