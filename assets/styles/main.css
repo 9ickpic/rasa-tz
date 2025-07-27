@@ -395,7 +395,7 @@ a:hover {
 .hero::after {
   content: "";
 
-  background-image: url(../assets/images/banner.png);
+  background-image: url(../images/banner.png);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
