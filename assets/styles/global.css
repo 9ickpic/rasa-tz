@@ -1,0 +1,121 @@
+@font-face {
+  font-family: "IBMPlexSans-Medium";
+  src:
+    url("./assets/fonts/IBMPlexSans-Medium.woff2") format("woff2"),
+    url("./assets/fonts/IBMPlexSans-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans-Regular";
+  src:
+    url("./assets/fonts/IBMPlexSans-Regular.woff2") format("woff2"),
+    url("./assets/fonts/IBMPlexSans-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSans-SemiBold";
+  src:
+    url("./assets/fonts/IBMPlexSans-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/IBMPlexSans-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter-SemiBold";
+  src:
+    url("./assets/fonts/Inter-SemiBold.woff2") format("woff2"),
+    url("./assets/fonts/Inter-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+:root {
+  --color-gray-100: rgba(224, 225, 230, 1);
+  --color-gray-800: rgba(49, 49, 51, 1);
+  --color-primary: rgba(118, 1, 53, 1);
+  --color-text: rgba(13, 13, 13, 1);
+  --color-text-secondary: rgba(141, 141, 141, 1);
+  --color-text-secondary--omg: rgba(40, 40, 40, 1);
+  --color-primary-success: rgba(37, 180, 86, 1);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  border: none;
+  list-style: none;
+  color: black;
+}
+
+body {
+  font-family: "IBMPlexSans-Regular", sans-serif;
+  background-color: rgba(247, 249, 250, 1);
+  font-size: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 32px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 17px;
+}
+p {
+  font-size: 15px;
+}
+
+label {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+select {
+  padding: 11px 16px;
+  background-color: rgba(243, 243, 245, 1);
+  border: 1px solid rgba(236, 237, 240, 1);
+  border-radius: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  position: relative;
+  background-image: url("../images/chevron.svg");
+  background-repeat: no-repeat;
+  background-position: 95%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield; /* Для Firefox */
+}
+
+a:hover {
+  color: var(--color-primary);
+}
