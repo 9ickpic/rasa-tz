@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="ru">
+<!-- BEM HTML -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="*** SEO-tags">
+    <meta name="keywords" content="*** key1, key2, key3">
+    <meta name="author" content="Yaroslav Selyutin">
+    <meta name="language" content="ru">
+    <meta name="robots" content="index, follow">
+    <!--begin Open Graph -->
+    <meta property="og:title" content="*** Title for social">
+    <meta property="og:description" content="*** Desc for social">
+    <meta property="og:image" content="*** URL_image">
+    <meta property="og:url" content="*** URL_paper">
+    <meta property="og:type" content="website">
+    <!-- Open Graph end -->
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <title>СОЛИД БАНК | Yaroslav Selyutin</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <ul class="header__top-links ">
+                <li class="header__top-links-item"><a class="header__top-link" href="#">Частным клиентам</a></li>
+                <li class="header__top-links-item"><a class="header__top-link" href="#">Для бизнеса</a></li>
+                <li class="header__top-links-separator">
+                    <div class="utils-line-col"></div>
+                </li>
+                <li class="header__top-links-item"><a class="header__top-link" href="#">О банке</a></li>
+                <li class="header__top-links-item"><a class="header__top-link" href="#">Офисы</a></li>
+            </ul>
+            <ul class="header__top-utils ">
+                <li class="header__top-utils-item"><a
+                        class="header__top-utils-link header__top-utils-link--call medium-text" href="tel:88007755606">8
+                        (800) 775-56-06</a></li>
+                <li class="header__top-utils-item"><a class="header__top-utils-link header__top-utils-link--address"
+                        href="#"><span><img src="./assets/images/location.svg"
+                                alt="location-icon"></span><span>Хабаровск</span></a></li>
+                <li class="header__top-utils-item"><a class="header__top-utils-link header__top-utils-link--lang"
+                        href="#">English</a></li>
+            </ul>
+        </div>
+        <div class="xwrapper">
+            <div class="header__main ">
+                <a href="#" class="header__main--logo"><img src="./assets/images/logo.svg" alt="logo"></a>
+                <div class="header__mobile">
+                    <div class="action-button__link--desktop">
+                        <div class="action-button__link">
+                            <span><img class="action-button__icon" src="./assets/images/Phone.jpg" alt="phone"></span>
+                            <span><a class="action-button__link medium-text" href="#">Заказать звонок</a></span>
+                        </div>
+                        <div class="action-button__link">
+                            <span><img class="action-button__icon" src="./assets/images/login.jpg" alt="login"></span>
+                            <span> <a class="action-button__link medium-text bank" href="#">Интернет-банк</a></span>
+                        </div>
+                    </div>
+
+                    <div class="header__mobile--burger">
+                        <input id="burger-toggle" type="checkbox">
+                        <label for="burger-toggle">
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__nav-list ">
+                        <li class="header__nav-item"><a class="header__nav-link" href="#">Кредиты</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#">Вклады</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#">Обмен валют</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#">Карты</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#">Ипотека</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#">Переводы</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#">Страхование</a></li>
+                        <li class="header__nav-item"><a class="header__nav-link" href="#">Страхование</a></li>
+                        <li class="header__nav-item header__nav-item--drop"><a class="header__nav-link" href="#">Сервисы
+                                <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.1666 7.16675L7.99992 9.50008L5.83325 7.16675" stroke="black"
+                                            stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg></span></a></li>
+                    </ul>
+                </nav>
+                <div class="header__actions justify-between items-center">
+                    <div class="action-button  items-center">
+                        <a class="action-button__link medium-text" href="#">
+                            <div class="action-button__link-mobile">
+                                <span><img src="./assets/images/Phone.jpg" alt="phone"></span>
+                                <span><a class="action-button__link medium-text"
+                                        href="tel:+78007755606">8 800 775-56-06</a></span>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="action-button  items-center">
+                        <a href="#" class="action-button_link medium-text">
+                            <div class="action-button__link--bank">
+                                <span><img class="action-button__icon" src="./assets/images/login.jpg"
+                                        alt="login"></span>
+                                <span> <a class="action-button__link medium-text" href="#">Интернет-банк</a></span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="xwrapper">
+                <div class="hero__content">
+                    <div class="hero__text">
+                        <ul class="hero__menu">
+                            <li><a href="#">Главная</a></li>
+                            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M8.78132 7.99999L5.48132 4.69999L6.42399 3.75732L10.6667 7.99999L6.42399 12.2427L5.48132 11.3L8.78132 7.99999Z"
+                                            fill="#131313" />
+                                    </g>
+                                </svg></li>
+                            <li><a href="#">Кредит</a></li>
+                            <li><svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g opacity="0.5">
+                                        <path
+                                            d="M8.78132 7.99999L5.48132 4.69999L6.42399 3.75732L10.6667 7.99999L6.42399 12.2427L5.48132 11.3L8.78132 7.99999Z"
+                                            fill="#131313" />
+                                    </g>
+                                </svg></li>
+                            <li class="active"><a href="#">Автокредит</a></li>
+                        </ul>
+                        <h1 class="hero__heading semibold-text">Автокредит от 7,5% годовых</h1>
+                        <p class="hero__description">На покупку авто у дилера или частного лица</p>
+                        <a class="hero__button medium-text" href="#">Оформить</a>
+                    </div>
+                    <div class="hero__image">
+                        <img src="./assets/images/audi_banner.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="car-selection">
+            <div class="xwrapper">
+                <div class="car-selection__header  justify-between">
+                    <h2 class="car-selection__title">Выберите себе авто</h2>
+                    <button type="button" class="car-selection__toggle semibold-text"><span>Свернуть список
+                            машин</span><span><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M15.25 14.25L12 10.75L8.75 14.25" stroke="#760135" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></span></button>
+                </div>
+                <div class="car-selection__controls  justify-between">
+                    <div class="car-selection__brand flex-col">
+                        <label for="car-brand" class="semibold-text">Марка</label>
+                        <select name="brand" id="car-brand">
+                            <option value="">Выбрать</option>
+                            <option value="audi">Audi</option>
+                            <option value="bmw">BMW</option>
+                            <option value="honda">Honda</option>
+                            <option value="kia">Kia</option>
+                            <option value="mercedes">Mercedes-Benz</option>
+                            <option value="nissan">Nissan</option>
+                            <option value="suzuki">Suzuki</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="volkswagen">Volkswagen</option>
+                        </select>
+                    </div>
+                    <div class="car-selection__year flex-col">
+                        <label for="car-year" class="semibold-text">Год</label>
+                        <select name="year" id="car-year">
+                            <option value="">Выбрать</option>
+                            <option value="audi">Audi</option>
+                            <option value="bmw">BMW</option>
+                            <option value="honda">Honda</option>
+                            <option value="kia">Kia</option>
+                            <option value="mercedes">Mercedes-Benz</option>
+                            <option value="nissan">Nissan</option>
+                            <option value="suzuki">Suzuki</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="volkswagen">Volkswagen</option>
+                        </select>
+                    </div>
+                    <div class="car-selection__price flex-col">
+                        <label for="price-min" class="semibold-text">
+                            <span>Цена</span>
+                            <div class="price-min">
+                                <input type="number" id="price-max" name="price-max" min="0" placeholder="До">
+                                <div class="utils-line-row-span"></div>
+                                <input type="number" id="price-min" name="price-min" min="0" placeholder="От">
+                            </div>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="car-list">
+                <div class="car-item car-item--featured ">
+                    <div class="car-item__content flex-col">
+                        <span class="car-item__label medium-text">Лучшее предложение</span>
+                        <h3 class="car-item__title medium-text">Renault Arkana drive</h3>
+                        <p class="car-item__description regular-text">Купе-кроссовер Renault ARKANA — автомобиль,
+                            созданный с чистого листа. В нем все по-новому: от дизайна кузова до эргономики салона.
+                            Получилось эмоционально и надежно — оцените сами!</p>
+                        <span class="car-item__price medium-text">от 1 316 000 ₽</span>
+                        <a href="#" class="car-item__more"><span>Подробнее</span><svg width="18" height="18"
+                                viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.3125 5.0625L14.4375 9L10.3125 12.9375" stroke="#760135" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M14.25 9H3.5625" stroke="#760135" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg></a>
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider-wrapper">
+                            <div class="slider">
+                                <img src="./assets/images/redslider3.png" alt="Renault Arkana drive">
+                                <img src="./assets/images/redslider2.png" alt="Renault Arkana drive">
+                                <img src="./assets/images/redslider4.png" alt="Renault Arkana drive">
+                                <img src="./assets/images/redslider1.png" alt="Renault Arkana drive">
+                            </div>
+                        </div>
+                        <div class="slider-controls">
+                            <button type="button" class="prev"><img src="./assets/images/chevron2.svg"
+                                    alt="slide-prev"></button>
+                            <button type="button" class="next"><img src="./assets/images/chevron2.svg"
+                                    alt="slide-next"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-item car-item--featured ">
+                    <div class="car-item__content flex-col">
+                        <span class="car-item__label medium-text">Лучшее предложение</span>
+                        <h3 class="car-item__title medium-text">BMW X7</h3>
+                        <p class="car-item__description regular-text">Купе-кроссовер Renault ARKANA — автомобиль,
+                            созданный с чистого листа. В нем все по-новому: от дизайна кузова до эргономики салона.
+                            Получилось эмоционально и надежно — оцените сами!</p>
+                        <span class="car-item__price medium-text">от 8 188 000 ₽</span>
+                        <a href="#" class="car-item__more"><span>Подробнее</span><svg width="18" height="18"
+                                viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.3125 5.0625L14.4375 9L10.3125 12.9375" stroke="#760135" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M14.25 9H3.5625" stroke="#760135" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg></a>
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider-wrapper">
+                            <div class="slider">
+                                <img src="./assets/images/slidergray4.png" alt="Renault Arkana drive">
+                                <img src="./assets/images/slidergray2.png" alt="Renault Arkana drive">
+                                <img src="./assets/images/slidergray3.png" alt="Renault Arkana drive">
+                                <img src="./assets/images/slidergray1.png" alt="Renault Arkana drive">
+                            </div>
+                        </div>
+                        <div class="slider-controls">
+                            <button type="button" class="prev"><img src="./assets/images/chevron2.svg"
+                                    alt="slide-prev"></button>
+                            <button type="button" class="next"><img src="./assets/images/chevron2.svg"
+                                    alt="slide-next"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="car-item car-item--featured ">
+                    <div class="car-item__content flex-col">
+                        <span class="car-item__label medium-text">Лучшее предложение</span>
+                        <h3 class="car-item__title medium-text">Volkswagen Tiguan PA</h3>
+                        <p class="car-item__description regular-text">Купе-кроссовер Renault ARKANA — автомобиль,
+                            созданный с чистого листа. В нем все по-новому: от дизайна кузова до эргономики салона.
+                            Получилось эмоционально и надежно — оцените сами!</p>
+                        <span class="car-item__price medium-text">от 2 395 000 ₽</span>
+                        <a href="#" class="car-item__more"><span>Подробнее</span><svg width="18" height="18"
+                                viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M10.3125 5.0625L14.4375 9L10.3125 12.9375" stroke="#760135" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M14.25 9H3.5625" stroke="#760135" stroke-width="1.5" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg></a>
+                    </div>
+                    <div class="slider-container">
+                        <div class="slider-wrapper">
+                            <div class="slider">
+                                <img src="./assets/images/sliderblack4.png" alt="Renault Arkana drive">
+                                <img src="./assets/images/sliderblack2.png" alt="Renault Arkana drive">
+                                <img src="./assets/images/sliderblack3.png" alt="Renault Arkana drive">
+                                <img src="./assets/images/sliderblack1.png" alt="Renault Arkana drive">
+                            </div>
+                        </div>
+                        <div class="slider-controls">
+                            <button type="button" class="prev"><img src="./assets/images/chevron2.svg"
+                                    alt="slide-prev"></button>
+                            <button type="button" class="next"><img src="./assets/images/chevron2.svg"
+                                    alt="slide-next"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="car-list__catalog" id="main-catalog"></div>
+
+            </div>
+            <article class="not-found-message">
+                <p>Не нашли автомобиль у нас, но нужен автокредит? <a class="medium-text" href="#">Перейдите к форме
+                        заявки</a></p>
+                <img class="faq__icon" src="./assets/images/Question.svg" alt="texture">
+            </article>
+        </section>
+        <section class="credit">
+            <div class="container">
+                <div class="credit__content">
+                    <h2 class="credit__title">Общие условия</h2>
+                    <div class="credit__options flex-col">
+                        <div class="credit__option medium-text">Срок<span>от 6 месяцев до 6 лет.</span>
+                        </div>
+                        <div class="utils-line-row-span"></div>
+                        <div class="credit__option medium-text">Сумма<span>от 200 000 до 5 000 000
+                                руб.</span></div>
+                        <div class="utils-line-row-span"></div>
+                        <div class="credit__option medium-text">Годовая процентная ставка:<span>от 7,5
+                                % *.</span></div>
+                        <div class="utils-line-row-span"></div>
+                        <div class="credit__option medium-text">Возможность приобретения авто у частного
+                            лица</div>
+                        <div class="utils-line-row-span"></div>
+                        <a class="credit__link medium-text" href="#">Смотреть полные условия кредита <span><svg
+                                    width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.75 8.75L14.25 12L10.75 15.25" stroke="#760135" stroke-width="1.5"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <article class="faq">
+            <div class="container">
+                <div class="faq__content  items-center justify-between">
+                    <div class="faq__header ">
+                        <img class="faq__icon" src="./assets/images/Question.svg" alt="texture">
+                        <h4 class="faq__title">Часто задаваемые вопросы</h4>
+                    </div>
+                    <label class="faq__label" for="faq">
+                        <select name="faq" id="faq">
+                            <option value="Как подать заявку на автокредит?">Как подать заявку на автокредит?</option>
+                            <option value="bmw">BMW</option>
+                            <option value="honda">Honda</option>
+                            <option value="kia">Kia</option>
+                            <option value="mercedes">Mercedes-Benz</option>
+                            <option value="nissan">Nissan</option>
+                            <option value="suzuki">Suzuki</option>
+                            <option value="toyota">Toyota</option>
+                            <option value="volkswagen">Volkswagen</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+        </article>
+    </main>
+    <footer class="footer">
+        <div class="xwrapper">
+            <div class="footer__main">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-sections">
+                        <li class="footer__menu-section">
+                            <button class="footer__menu-toggle medium-text">
+                                Частным лицам <img src="./assets/images/chevron.svg">
+                            </button>
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Банковские карты</a>
+                                </li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Кредиты</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Вклады</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Ипотека</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Страхование</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Сейфовые ячейки</a>
+                                </li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Открытие счетов</a>
+                                </li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Обмен валюты</a>
+                                </li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Переводы</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Маркетплейс</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="footer__menu-section">
+                            <button class="footer__menu-toggle medium-text">
+                                Бизнесу <img src="./assets/images/chevron.svg">
+                            </button>
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Экспресс-МСБ</a>
+                                </li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Расчетно-кассовое
+                                        обслуживание</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Онлайн
+                                        резервирование счета</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Внешнеэкономическая
+                                        деятельность</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Зарплатный
+                                        проект</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Овердрафт</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Кредит</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Лизинг</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Депозиты</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Банковские
+                                        гарантии</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Факторинг</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="footer__menu-section">
+                            <button class="footer__menu-toggle medium-text">
+                                О банке <img src="./assets/images/chevron.svg">
+                            </button>
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Новости</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Вакансии</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Офисы</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Инвестиционные
+                                        услуги</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">О банке</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Реквизиты</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Тарифы</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Монеты</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Непрофильные
+                                        активы</a></li>
+                            </ul>
+                        </li>
+                        <li class="footer__menu-section">
+                            <button class="footer__menu-toggle medium-text">
+                                Дополнительные пункты <img src="./assets/images/chevron.svg">
+                            </button>
+                            <ul class="footer__menu-list">
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Новости</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Вакансии</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Офисы</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Инвестиционные
+                                        услуги</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">О банке</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Реквизиты</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Тарифы</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Монеты</a></li>
+                                <li class="footer__menu-item"><a class="footer__menu-link" href="#">Непрофильные
+                                        активы</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="footer__contacts">
+                    <div class="footer__contacts-item flex-col">
+                        <a class="footer__contacts-tel medium-text" href="tel:+78007755606">8 800 775-56-06</a>
+                        <span>Для звонков по России (бесплатно)</span>
+                    </div>
+                    <div class="footer__contacts-item flex-col">
+                        <a class="footer__contacts-tel medium-text" href="tel:+74952323723">+7 495 232-37-23</a>
+                        <span>Для блокировка карт (круглосуточно)</span>
+                    </div>
+                    <ul class="footer__contacts-socials ">
+                        <li><a href="#"><img src="./assets/images/tg.svg" alt="telegram"></a></li>
+                        <li><a href="#"><img src="./assets/images/vk.svg" alt="vk"></a></li>
+                        <li><a href="#"><img src="./assets/images/ok.svg" alt="ok"></a></li>
+                        <li><a href="#"><img src="./assets/images/twitter.svg" alt="twitter"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="xwrapper">
+            <div class="footer__bottom flex-col">
+                <div class="footer__helps">
+                    <p class="footer__helps-group"><a href="#">FATCA</a> <a href="#">Страхование и другие услуги НФО</a>
+                        <a href="#">Общие условия предоставления банковских гарантий в АО «Солид Банк»</a> <a
+                            href="#">Памятки по финансовой безопасности</a> <a href="#">Обеспечение защиты прав
+                            потребителей финансовых услуг</a>
+                    </p>
+                    <p class="footer__helps-group"><a href="#">Методика определения справедливой стоимости финансовых
+                            инструментов</a> <a href="#">Политика в отношении обработки персональных данных</a> <a
+                            href="#">Лица, ответственные за сведения на сайте</a> <a href="#">Аудиторская компания</a>
+                        <a href="#">Надзорные органы</a>
+                    </p>
+                    <p class="footer__helps-group"><a href="#">Информация о процентных ставках по договорам банковского
+                            вклада с физическими лицами</a> <a href="#">Информация, связанная с совершением Банком
+                            действий, предусмотренных пунктом 5.6 статьи 7 ФЗ N 115</a></p>
+                </div>
+                <div class="footer__copyright">
+                    <p>© 2004-2021, АО «Солид Банк» , официальный сайт, генеральная лицензия ЦБ РФ № 1329.</p>
+                    <p>Разработка сайта - <a href="https://rasa.pro/" target="_blank">RASA</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./assets/js/catalog.js"></script>
+    <script src="./assets/js/footerMenu.js"></script>
+    <script src="./assets/js/slider.js"></script>
+</body>
