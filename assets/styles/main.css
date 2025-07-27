@@ -348,6 +348,16 @@ a:hover {
   }
 }
 
+body
+  > header
+  > div.header__top
+  > ul.header__top-utils
+  > li:nth-child(1)
+  > span
+  > a {
+  color: var(--color-primary);
+}
+
 .header__actions {
   .action-button__link--desktop {
     display: none;
