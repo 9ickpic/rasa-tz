@@ -656,10 +656,19 @@ a:hover {
     padding: 16px;
     background-color: white;
     border-radius: 16px;
+    transition: 0.3s all ease;
+
+    &:hover {
+      scale: 1.1;
+      a {
+        color: var(--color-primary);
+      }
+    }
 
     img {
       width: 100%;
       margin-bottom: 16px;
+      transition: 0.3s all ease;
     }
 
     h4 {
